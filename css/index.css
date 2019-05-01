@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    background-color: #9769F2;
+    font-family: 'Poiret One', cursive;
+}
+
+body {
+    color: black;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.header__list li {
+    list-style: none;
+    display: inline-block;
+    background-color: #9769F2;
+    color: white;
+    padding: .50rem;
+}
+
+h1 {
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+p {
+    text-align: center;
+    padding: 5rem 8rem;
+}
+
+button {
+    background-color: #9769F2;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.topleft-list {
+    float: left;
+}
+
+.topright-list {
+    float: right;
+}
+
+.topbuttons-list {
+    float: right;
+}
+
+.header--main {
+    display: inline-block;
+    width: 100%
+}
